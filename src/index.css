@@ -1,0 +1,64 @@
+body {
+  background-color: #ffcd38;
+  color: #4a4a4a;
+  font-family: monospace;
+}
+.right {
+  text-align: right;
+}
+.icon {
+  width: 40px;
+  height: 40px;
+  margin: 20px;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 40px;
+  text-align: center;
+  background-color: #ffeeb4;
+  display: inline-block;
+  box-shadow: 10px 10px #646464;
+  cursor: pointer;
+  transition: 0.2s;
+}
+.icon:hover {
+  box-shadow: 7px 7px #646464;
+}
+.header-text {
+  font-size: 32px;
+  text-align: center;
+}
+.text-area {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.text-area textarea,
+.text-area div {
+  width: 45%;
+  height: 400px;
+  overflow: auto;
+  padding: 10px;
+  background-color: #ffdd67;
+  box-shadow: 10px 10px #646464;
+  color: #4a4a4a;
+}
+.text-area textarea {
+  outline: none;
+  resize: none;
+  border: none;
+}
+.text-area textarea::-webkit-scrollbar,
+.text-area div::-webkit-scrollbar {
+  width: 10px;
+}
+.text-area textarea::-webkit-scrollbar-track,
+.text-area div::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+}
+.text-area textarea::-webkit-scrollbar-thumb,
+.text-area div::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.5);
+}
